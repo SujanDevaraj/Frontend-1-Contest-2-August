@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:rgb(243, 232, 232);
+}
+.nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position:sticky;
+    top:0px;
+    margin-bottom: 50px;
+
+}
+.nav>h1{
+    display: inline-block;
+    width: 1000px;
+}
+.nav>a{
+    text-decoration: none;
+    color: white;
+    padding-inline: 20px;
+    font-size: larger;
+}
+.nav>h1:hover{
+    color:blue;
+}
+.nav>a:hover{
+    color:blue;
+}
+table{
+    border-collapse: collapse;
+     border: 1px solid gray;
+     width: 90%;
+     margin: auto;
+     
+
+}
+th,td{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+
+#books>h1,.reg>h1{
+    margin-left: 10px;;
+    padding-bottom: 20px;
+    margin-top:30px;
+
+}
+#books{
+   
+    margin: auto;
+    width: 76%;
+    padding: 10px;
+    background-color:white;
+    margin-bottom: 50px;
+    
+}
+
+#Register{
+  
+    margin:auto;
+    width: 76%;
+    padding: 10px;
+    background-color:white;
+    
+}
+
+#regbtn{
+    background-color: #333;
+    width: 94%;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin:20px;
+    font-weight: bold;
+}
+#regbtn:hover{
+    background-color: rgb(104, 101, 101);
+}
+.book1{
+    padding-top: 10px;
+    
+    
+}
+input{
+    width: 92%;
+    padding:10px;
+    margin:20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label{
+    
+    margin-left: 20px;
+    font-weight: bold;
+}
+caption{
+    text-align:left;
+    padding-bottom:5px;
+}
